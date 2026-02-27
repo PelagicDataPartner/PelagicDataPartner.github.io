@@ -40,12 +40,12 @@ if (form) {
 // =============================
 // 3. Mobile menu toggle
 // =============================
-const menuButton = document.querySelector(".menu-toggle");
-const navMenu = document.querySelector(".nav-menu");
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".sidebar nav");
 
-if (menuButton && navMenu) {
-    menuButton.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
+if (toggle) {
+    toggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
     });
 }
 
