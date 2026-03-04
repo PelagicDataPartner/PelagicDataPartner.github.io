@@ -3,55 +3,95 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pelagic Data Partner | Dive deeper in your data</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nautical Analytics for All</title>
 </head>
 
 <body>
-    <!-- Sidebar -->
-    <button class="menu-toggle">☰</button>
+
     <aside class="sidebar">
-        <div class="logo">
-            <h2>Pelagic Data Partner</h2>
-            <p>ML Engineer</p>
+        <div class="logo-container">
+            <!-- Placeholder for the robot mascot PNG image -->
+            <img src="mascot_robot.png" alt="Data Diver Robot Mascot"
+                onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 100 100\'><circle cx=\'50\' cy=\'50\' r=\'45\' fill=\'#eee\'/><text x=\'50\' y=\'58\' font-size=\'40\' fill=\'#333\' text-anchor=\'middle\'>🤖</text></svg>';">
+            <div class="slogan-mascot">Data is for diving</div>
         </div>
 
-        <nav>
-            <a href="/en/index.html">Home</a>
-            <a href="/en/projecten.html">Projects</a>
-            <a href="/en/about.html">About me</a>
-            <a href="/en/contact.html">Contact</a>
+        <div class="main-slogan">
+            Nautical Analytics for All
+        </div>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home" class="active">Home (The Abyss)</a></li>
+                <li><a href="#services">Services (The Depths)</a></li>
+                <li><a href="#testimonials">Testimonials (Surface Reports)</a></li>
+                <li><a href="#contact">Contact (Drop Anchor)</a></li>
+            </ul>
         </nav>
-
-        <div class="language-switch">
-            <a href="/nl/index.html">Switch naar het Nederlands</a>
-        </div>
     </aside>
-    <header>
-        <h1>Your name</h1>
-        <p>Machine Learning & AI Solutions</p>
-    </header>
 
-    <section>
-        <h2>What I do</h2>
-        <p>
-            I help companies with data analytics, machine learning models
-            and AI solutions which create immediate value.
-        </p>
-    </section>
+    <main class="main-content">
+        <header>
+            <h1>Charting the Course of Data Exploration</h1>
+        </header>
 
-    <section>
-        <h2>Recent Projects</h2>
-        <ul>
-            <li>🔹 Predictive maintenance model</li>
-            <li>🔹 NLP chatbot solution</li>
-            <li>🔹 Computer vision quality control</li>
-        </ul>
-    </section>
+        <!-- Introduction Section -->
+        <section id="home" class="section-content">
+            <h2>Welcome Aboard the Analytics Vessel</h2>
+            <p>Navigate the vast, unexplored oceans of your information with expert guidance. As a specialist in
+                Business Intelligence (BI), Data Science, and Machine Learning, I transform complex raw data into clear,
+                actionable navigational charts. Our approach is rooted in the precision of the deep sea—thorough,
+                systematic, and focused on revealing hidden treasures.</p>
+        </section>
 
-    <section>
-        <a href="contact.html">Contact me</a>
-    </section>
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Nautical Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>BI Analytics & Reporting</h3>
+                    <p>Deploying dynamic dashboards and clear visualization tools to monitor the currents of your
+                        business performance in real-time.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Data Science Expedition</h3>
+                    <p>Conducting deep-sea dives into large datasets to uncover trends, anomalies, and critical insights
+                        previously unseen beneath the waves.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Machine Learning Deployment</h3>
+                    <p>Building predictive sonar systems (ML models) to forecast future conditions, optimizing routes
+                        and minimizing submerged risks.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>Surface Reports from Satisfied Clients</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p>"Their predictive modeling was like upgrading from paper charts to satellite navigation. We cut
+                        operational delays by 20%."</p>
+                    <strong>— Captain E. Vanguard, Logistics Firm</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Professional, reliable, and surprisingly deep knowledge of our niche. The BI setup is
+                        intuitive—perfect for our non-technical crew."</p>
+                    <strong>— Dr. L. Marin, Marine Research Institute</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="contact" class="cta-section">
+            <h2 color=#fff>Ready to Dive into Your Data?</h2>
+            <p>Let's discuss how professional, nautical-inspired analytics can guide your organization to uncharted
+                success.</p>
+            <a href="mailto:contact@example.com" class="cta-button">Request a Deep Dive Consultation</a>
+        </section>
+    </main>
 
 </body>
 
