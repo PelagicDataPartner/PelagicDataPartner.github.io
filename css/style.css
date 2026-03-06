@@ -52,14 +52,14 @@ body {
   font-size: 0.9em;
   font-weight: bold;
   margin-top: 5px;
-  color: #333;
+  color: var(--color-background);
   /* Darker contrast for the mascot slogan */
 }
 
 .main-slogan {
   font-size: 1.5em;
   font-weight: 900;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 30px 10px;
   text-transform: uppercase;
   line-height: 1.2;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
